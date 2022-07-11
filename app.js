@@ -8,7 +8,7 @@ const db = require("./models");
 app.use(bodyParser.json())
 
 const corsOptions ={
-   origin:['https://62cb83333563890008931b51--friendly-rolypoly-7fa8e8.netlify.app','http://localhost:3000'],
+   origin:['https://62cb896b7344c8000844504a--friendly-rolypoly-7fa8e8.netlify.app','http://localhost:3000'],
    credentials:true,            //access-control-allow-credentials:true
    optionSuccessStatus:200,
 }
